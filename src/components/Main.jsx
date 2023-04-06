@@ -5,15 +5,13 @@ import Frame1 from '../images/Frame1.png';
 
 const Main = () => {
   return (
-    <div className='lg:flex font-melodrama border-2 border-black h-[43rem] '>
-        <div id='start' className='lg:flex  lg:flex-col'>
+    <div className='lg:flex font-melodrama border-2 border-black h-[43rem] bg-[#EFEFEF]'>
+        <div id='start' className='lg:flex  lg:flex-col items-left '>
             <div id="nameBanner" className='lg:flex lg:flex-col lg:ml-10 '>
-                <h1 className='lg:text-3xl'>SurendharGN</h1>
+                <h1 className='lg:text-2xl translate-y-5'>SurendharGN</h1>
 
-                <div id="buttons" className='lg:flex lg:gap-5 '>
-                    <div className=' flex items-center justify-center lg:text-2xl lg:h-12  lg:w-28 bg-white border border-black'>
-                        <Link to='/'>PROJECTS</Link>
-                    </div>
+                <div id="buttons" className='lg:flex lg:gap-5 translate-y-10'>
+                    
                     <div className=' flex items-center justify-center text-2xl h-12  w-28 bg-white border border-black'>
                         <Link to='/'>RESUME</Link>
                     </div>
@@ -30,6 +28,9 @@ const Main = () => {
         </div>
 
         <div id="center" className='lg:w-72 lg:h-64 lg:-translate-x-72 translate-y-16'>
+            <div>
+                        <Link className=' flex items-center justify-center lg:text-2xl lg:h-12  lg:w-28 bg-white border border-black' to='/projects'>PROJECTS</Link>
+                    </div>
             <img alt='gritty' src={Frame1}></img>
         </div>
 
