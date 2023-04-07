@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Melodrama";
+    src: url('../public/Melodrama-Light.ttf')
+}
+@font-face {
+    font-family: "Stardom";
+    src: url('../public/Stardom-Regular.ttf')
+}
+
+:root{
+    scrollbar-width:none
+}
