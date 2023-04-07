@@ -10,3 +10,7 @@
     font-family: "Stardom";
     src: url('../public/Stardom-Regular.ttf')
 }
+
+:root{
+    scrollbar-width:none
+}

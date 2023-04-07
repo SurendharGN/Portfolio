@@ -6,9 +6,15 @@ module.exports = {
         fontFamily:{
             melodrama:"Melodrama",
             stardom:"Stardom"
+        },
+        blur:{
+            xs:'0.5px'
+
         }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
 
