@@ -6,24 +6,24 @@ const Navbar = () => {
   return (
     <div className='lg:flex lg:flex-col'>
         
-        <ul className='flex gap-10 font-melodrama text-black justify-center items-center translate-y-10 '>
-        <li className='text-2xl hover:blur-none transition ease-in-out duration-300 hover:scale-x-150 hover:scale-y-150 hover:font-medium'>
+        <ul className='flex lg:gap-10 font-melodrama text-black justify-center items-center translate-y-10 mobile:gap-5'>
+        <li className='lg:text-2xl blur-none hoverTransition hover:font-medium'>
             <Link to='/About'>ABOUT</Link>
         </li>
 
-        <li className='text-2xl hover:blur-none transition ease-in-out duration-300 hover:scale-x-150 hover:scale-y-150 hover:font-medium'>
+        <li className='lg:text-2xl hoverTransition hover:font-medium'>
              <Link key='project' to='/projects'>PROJECTS</Link>
         </li>
         
-        <li>
-             <Link to='/' className='text-white text-4xl blur-xs  hover:blur-none transition ease-in-out duration-300 hover:scale-x-150 hover:scale-y-150 hover:font-medium'>SurendharGN</Link>
+        <li className='mobile:absolute mobile:-top-10 md:top-0 md:relative '>
+             <Link to='/' className='text-white lg:text-4xl  hoverTransition hover:font-medium mobile:text-2xl '>SurendharGN</Link>
         </li>
         
-        <li className='text-2xl hover:blur-none transition ease-in-out duration-300 hover:scale-x-150 hover:scale-y-150 hover:font-medium'>
+        <li className='lg:text-2xl hoverTransition hover:font-medium'>
              <Link>RESUME</Link>
         </li>
         
-        <li className='text-2xl hover:blur-none transition ease-in-out duration-300 hover:scale-x-150 hover:scale-y-150 hover:font-medium'>
+        <li className='lg:text-2xl hoverTransition hover:font-medium'>
              <Link className=''>HIRE ME</Link>
         </li>
 

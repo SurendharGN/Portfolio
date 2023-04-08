@@ -14,3 +14,7 @@
 :root{
     scrollbar-width:none
 }
+
+.hoverTransition{
+    @apply transition ease-in-out duration-300 hover:scale-x-150 hover:scale-y-150
+}
