@@ -1,5 +1,5 @@
 {
-   "homepage":"http://SurendharGN.github.io/Portfolio",
+   
 
   "name": "portfolio",
    
@@ -77,9 +77,7 @@
    
 
   "scripts": {
-    "predeploy": "npm run build",
-
-   "deploy": "gh-pages -d build",
+    
    
 
      
