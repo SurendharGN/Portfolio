@@ -24,7 +24,7 @@ const Navbar = () => {
         </li>
         
         <li className='lg:text-2xl hoverTransition hover:font-medium'>
-             <Link className='lg:text-2xl  mobile:text-md'>HIRE ME</Link>
+             <Link to='mailto:work.surendhar@gmail.com' className='lg:text-2xl  mobile:text-md'>HIRE ME</Link>
         </li>
 
       
