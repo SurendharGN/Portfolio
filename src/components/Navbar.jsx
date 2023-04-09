@@ -4,27 +4,27 @@ import {Link} from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className='lg:flex lg:flex-col'>
+    <div className='lg:flex lg:flex-col '>
         
-        <ul className='flex lg:gap-10 font-melodrama text-black justify-center items-center translate-y-10 mobile:gap-5'>
-        <li className='lg:text-2xl blur-none hoverTransition hover:font-medium'>
+        <ul className='flex lg:gap-10 font-melodrama text-black justify-center items-center translate-y-10 mobile:gap-4  '>
+        <li className='lg:text-2xl blur-none hoverTransition mobile:text-md hover:font-medium'>
             <Link to='/About'>ABOUT</Link>
         </li>
 
-        <li className='lg:text-2xl hoverTransition hover:font-medium'>
+        <li className='lg:text-2xl hoverTransition hover:font-medium mobile:text-md'>
              <Link key='project' to='/projects'>PROJECTS</Link>
         </li>
         
-        <li className='mobile:absolute mobile:-top-10 md:top-0 md:relative '>
-             <Link to='/' className='text-white lg:text-4xl  hoverTransition hover:font-medium mobile:text-2xl '>SurendharGN</Link>
+        <li className='mobile:absolute mobile:-top-14 md:top-0 md:relative '>
+             <Link to='/' className='text-white lg:text-4xl  hoverTransition  hover:font-medium mobile:text-3xl '>SurendharGN</Link>
         </li>
         
-        <li className='lg:text-2xl hoverTransition hover:font-medium'>
+        <li className='lg:text-2xl hoverTransition hover:font-medium mobile:text-md'>
              <Link>RESUME</Link>
         </li>
         
         <li className='lg:text-2xl hoverTransition hover:font-medium'>
-             <Link className=''>HIRE ME</Link>
+             <Link className='lg:text-2xl  mobile:text-md'>HIRE ME</Link>
         </li>
 
       
