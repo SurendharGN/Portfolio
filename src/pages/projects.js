@@ -6,6 +6,7 @@ import boatClone from '../images/boatClone.png';
 import {useState} from 'react';
 import countryroad from '../images/countryroad.jpg';
 import Navbar from '../components/Navbar';
+import Contact from '../components/Contact';
 
 
 const Projects = () => {
@@ -100,6 +101,7 @@ const Projects = () => {
 
         
         </div>
+
 
         
 
