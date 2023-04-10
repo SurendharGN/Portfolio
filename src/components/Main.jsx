@@ -22,7 +22,7 @@ const Main = () => {
         
         <h2 className='text-center font-stardom lg:text-6xl md:-translate-y-36 mobile:-translate-y-10  blur-xs mobile:text-3xl'>Enthusiast</h2>
         
-        <Contact/>
+        <Contact />
         
         
         

@@ -5,7 +5,7 @@ import linkedin from '../images/linkedin.png'
 
 const Contact = () => {
   return (
-    <div className='flex gap-3 justify-center'>
+    <div className='flex gap-3 justify-center mobile:translate-y-5 lg:absolute lg:top-[34rem] lg:translate-y-0'>
             
         <div className='border rounded-full w-10 '>
             <img className='w-10 p-2' src= {linkedin} alt='linkedin-logo'></img>
