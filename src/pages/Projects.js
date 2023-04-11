@@ -11,10 +11,14 @@ import Contact from '../components/Contact';
 
 const Projects = () => {
 
+
+    const featherspotGit='';
+    const featherspotSite='';
+
     
   return (
     <div className={`lg:flex-col lg:translate-y-20 lg:flex  
-     lg:justify-center lg:items-center font-melodrama text-black tracking-widest lg:relative `}>
+     lg:justify-center md:justify-center lg:items-center font-melodrama text-black tracking-widest lg:relative `}>
         <div className='md:-translate-y-5 mobile:translate-y-10 lg:-translate-y-16 m-auto'>
             <Navbar className='z-10 absolute top-0'/>
         </div>
@@ -23,7 +27,7 @@ const Projects = () => {
         <div className='mobile:flex mobile:flex-col mobile:items-center mobile:gap-8 mobile:translate-y-24 mobile:-translate-x-5 
         
         lg:-translate-x-0
-        lg:flex lg:flex-col lg:items-center lg:gap-8 lg:translate-y-0  '>
+        lg:flex lg:flex-col lg:items-center lg:gap-8 lg:translate-y-0'>
             <div className={`lg:flex lg:gap-14 lg:absolute lg:top-8 lg:-right-24 transition ease-in-out duration-500 hover:scale-x-125 hover:scale-y-125 `}>
             <div className='lg:flex lg:flex-col  w-3/4 text-center m-auto'>
             <div className='  mobile:flex'>
@@ -107,7 +111,7 @@ const Projects = () => {
 
         
         <img src={countryroad} alt='sea' className='absolute lg:-top-20 lg:right-0 -z-10  w-screen mobile:h-[64rem] lg:object-cover lg:h-screen
-        mobile:object-cover  mobile:-top-20 sm:right-0'></img>
+        mobile:object-cover md:h-[72rem] mobile:-top-20 sm:right-0'></img>
     </div>
 
   )
