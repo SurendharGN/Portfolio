@@ -106,8 +106,8 @@ const Projects = () => {
         
 
         
-        <img src={countryroad} alt='sea' className='absolute lg:-top-20 lg:right-0 -z-10  w-screen mobile:h-[72rem]  lg:object-cover lg:h-screen
-        mobile:object-cover mobile:-top-20 sm:right-0'></img>
+        <img src={countryroad} alt='sea' className='absolute lg:-top-20 lg:right-0 -z-10  w-screen mobile:h-[64rem] lg:object-cover lg:h-screen
+        mobile:object-cover  mobile:-top-20 sm:right-0'></img>
     </div>
 
   )
