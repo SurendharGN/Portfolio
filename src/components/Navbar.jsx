@@ -2,6 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 
+
+
+
 const Navbar = () => {
   return (
     <div className='lg:flex lg:flex-col '>
@@ -20,7 +23,9 @@ const Navbar = () => {
         </li>
         
         <li className='lg:text-2xl hoverTransition hover:font-medium mobile:text-md'>
-             <Link>RESUME</Link>
+
+            <Link to='/Resume' target="_blank">RESUME</Link>
+            
         </li>
         
         <li className='lg:text-2xl hoverTransition hover:font-medium'>
