@@ -48,6 +48,8 @@ const Projects = () => {
 
 
         </div>
+        <div className='bg-white md:hidden m-auto h-px my-1 mobile:w-24 '></div>
+        
         
         
 
@@ -74,6 +76,8 @@ const Projects = () => {
             
 
         </div>
+
+        <div className='bg-white md:hidden m-auto h-px my-1 mobile:w-24  '></div>
 
         <div className={`lg:flex w-[48rem] lg:w-72 lg:absolute lg:top-[20rem] lg:-right-64 mt-5 transition ease-in-out duration-500 hover:scale-x-125 hover:scale-y-125 mobile:w-3/4 mobile:-translate-y-8`} >
             
@@ -109,7 +113,7 @@ const Projects = () => {
         
 
         
-        <img src={countryroad} alt='sea' className='absolute lg:-top-20 lg:right-0 -z-10  w-screen mobile:h-[56rem] lg:object-cover lg:h-screen
+        <img src={countryroad} alt='sea' className='absolute lg:-top-20 lg:right-0 -z-10  w-screen mobile:h-[64rem] lg:object-cover lg:h-screen
         mobile:object-cover md:h-[72rem] mobile:-top-20 sm:right-0'></img>
     </div>
 
