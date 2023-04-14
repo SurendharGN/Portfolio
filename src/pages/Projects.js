@@ -12,8 +12,7 @@ import Contact from '../components/Contact';
 const Projects = () => {
 
 
-    const featherspotGit='';
-    const featherspotSite='';
+    
 
     
   return (
@@ -22,17 +21,19 @@ const Projects = () => {
         <div className='md:-translate-y-5 mobile:translate-y-10 lg:-translate-y-16 m-auto'>
             <Navbar className='z-10 absolute top-0'/>
         </div>
-        <div className='bg-white w-3/4 m-auto h-px justify-center mobile:translate-y-10 lg:-translate-y-2'></div>
+        <div className='bg-white w-3/4 m-auto h-px justify-center mobile:translate-y-10 lg:-translate-y-2 '></div>
 
-        <div className='mobile:flex mobile:flex-col mobile:items-center mobile:gap-8 mobile:translate-y-24 mobile:-translate-x-5 
+        <div className='mobile:flex mobile:flex-col mobile:items-center mobile:gap-8 mobile:translate-y-24 mobile:-translate-x-5 mobile:mt-5
         
         lg:-translate-x-0
-        lg:flex lg:flex-col lg:items-center lg:gap-8 lg:translate-y-0'>
+        lg:flex lg:flex-col lg:items-center lg:gap-8 lg:translate-y-0
+        
+        font-bold'>
             <div className={`lg:flex lg:gap-14 lg:absolute lg:top-8 lg:-right-24 transition ease-in-out duration-500 hover:scale-x-125 hover:scale-y-125 `}>
             <div className='lg:flex lg:flex-col  w-3/4 text-center m-auto'>
             <div className='  mobile:flex'>
                 
-                <h2 className=' lg:text-6xl mobile:text-2xl'>1.FEATHERSPOT</h2>
+                <h2 className=' lg:text-6xl mobile:text-2xl '>1.FEATHERSPOT</h2>
 
             </div>
             
@@ -45,13 +46,12 @@ const Projects = () => {
         </div>
         <img alt='featherspot' src={featherspot} className='mobile:w-3/4 mobile:m-auto md:w-[28rem] '></img>
 
-        <div className='bg-white w-3/4 h-px justify-center md:hidden mobile:block mt-3 m-auto'></div>
 
         </div>
         
         
 
-        <div className={`lg:flex lg:flex-col lg:w-[40rem] lg:absolute lg:top-64 lg:-right-36 transition ease-in-out duration-500 hover:scale-x-125 hover:scale-y-125 mobile:w-3/4 `}>
+        <div className={`lg:flex lg:flex-col lg:w-[40rem] lg:absolute lg:top-64 lg:-right-36 transition ease-in-out duration-500 hover:scale-x-125 hover:scale-y-125 mobile:w-3/4 mobile:-translate-y-2 `}>
             <div className='lg:flex lg:gap-4'>
                 
                 
@@ -67,7 +67,6 @@ const Projects = () => {
                 </div>
                 
 
-                 <div className='bg-white w-3/4 h-px justify-center md:hidden mobile:block mt-3 m-auto'></div>
               
                 
             </div>
@@ -76,14 +75,14 @@ const Projects = () => {
 
         </div>
 
-        <div className={`lg:flex w-[48rem] lg:w-72 lg:absolute lg:top-[20rem] lg:-right-64 mt-5 transition ease-in-out duration-500 hover:scale-x-125 hover:scale-y-125 mobile:w-3/4 `} >
+        <div className={`lg:flex w-[48rem] lg:w-72 lg:absolute lg:top-[20rem] lg:-right-64 mt-5 transition ease-in-out duration-500 hover:scale-x-125 hover:scale-y-125 mobile:w-3/4 mobile:-translate-y-8`} >
             
             <div className='lg:flex '>
                 
 
-            <div className='lg:-translate-x-6'><div className='flex gap-2'>
+            <div className=' lg:-translate-x-6'><div className='flex gap-2'>
                 <p>3.</p>
-                <h2 className='md:text-4xl mobile:text-xl '>EXPENSE TRACKER</h2>
+                <h2 className=' md:text-4xl mobile:text-2xl '>EXPENSE TRACKER</h2>
 
             </div>
             
@@ -110,7 +109,7 @@ const Projects = () => {
         
 
         
-        <img src={countryroad} alt='sea' className='absolute lg:-top-20 lg:right-0 -z-10  w-screen mobile:h-[64rem] lg:object-cover lg:h-screen
+        <img src={countryroad} alt='sea' className='absolute lg:-top-20 lg:right-0 -z-10  w-screen mobile:h-[56rem] lg:object-cover lg:h-screen
         mobile:object-cover md:h-[72rem] mobile:-top-20 sm:right-0'></img>
     </div>
 
