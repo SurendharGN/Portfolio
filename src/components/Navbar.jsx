@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className='lg:flex lg:flex-col '>
         
-        <ul className='flex lg:gap-10 font-melodrama text-black justify-center items-center translate-y-10 mobile:gap-4  '>
+        <ul className='flex lg:gap-10 font-melodrama text-black justify-center items-center translate-y-10 mobile:gap-7  '>
         <li className='lg:text-2xl blur-none hoverTransition mobile:text-lg hover:font-medium'>
             <Link to='/About'>ABOUT</Link>
         </li>

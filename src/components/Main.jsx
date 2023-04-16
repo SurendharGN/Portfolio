@@ -16,7 +16,7 @@ const Main = () => {
             <Navbar className='z-10 absolute top-0'/>
         </div>
 
-        <div className=' w-3/4 h-px bg-white mobile:m-auto'></div>
+        <div className='translate-y-2  w-3/4 h-px bg-white mobile:m-auto'></div>
 
         <h1 className='lg:text-[23rem] md:-translate-y-10 font-bold blur-xs mobile:text-[12rem] text-center md:text-[18rem]'>WEB</h1>
         
