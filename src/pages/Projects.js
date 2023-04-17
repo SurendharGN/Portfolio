@@ -43,14 +43,14 @@ const Projects = () => {
                 <p>MARCH-APRIL 2023</p>
             </div>
             <div className='mobile:hidden md:block md:-translate-x-11'>
-            <ProjectLink/>
+            <ProjectLink siteLink="https://featherspot.vercel.app/" github="https://github.com/SurendharGN/Featherspot"/>
         </div>
             
 
         </div>
         <img alt='featherspot' src={featherspot} className='mobile:w-3/4 mobile:m-auto md:w-[28rem] '></img>
         <div className='md:hidden'>
-            <ProjectLink/>
+            <ProjectLink siteLink="https://featherspot.vercel.app/" github="https://github.com/SurendharGN/Featherspot"/>
         </div>
         
 
@@ -78,15 +78,15 @@ const Projects = () => {
                 
                 
                 </div>
-                <div className='md:translate-x-60 md:-translate-y-6'>
-                    <ProjectLink/>
+                <div className='mobile:hidden md:translate-x-60 md:-translate-y-6'>
+                    <ProjectLink siteLink="https://boat-clone-seven.vercel.app/" github="https://github.com/SurendharGN/boat-clone"/>
                 </div>
 
                 <img alt='boat clone' src={boatClone} className='mobile:w-[17rem] md:w-[20rem] rounded-xs lg:-translate-y-44 lg:-translate-x-10'></img>
 
                 </div>
                 <div className='mobile:-translate-x-11 mobile:w-80 md:hidden'>
-                    <ProjectLink />
+                    <ProjectLink siteLink="https://boat-clone-seven.vercel.app/" github="https://github.com/SurendharGN/boat-clone" />
                 </div>
 
                 <div className='w-32 justify-center flex bg-white h-px  mt-8'></div>
@@ -103,7 +103,7 @@ const Projects = () => {
 
         
 
-        <div className={`lg:flex w-[48rem] lg:w-16 lg:absolute md:top-[23rem] md:-right-32 mt-5 transition ease-in-out duration-500   mobile:-translate-y-8 mobile:w-5/6 mobile:translate-x-4`} >
+        <div className={`lg:flex w-[48rem] lg:w-16 md:text-left md:h-36 lg:absolute md:top-[23rem] md:-right-32 mt-5 transition ease-in-out duration-500   mobile:-translate-y-8 mobile:w-5/6 mobile:translate-x-4`} >
             
             <div className='lg:flex '>
                 
@@ -123,8 +123,8 @@ const Projects = () => {
                     APRIL 2023
                 </p>
             </div>
-                 <div className='mobile:-translate-11 mobile:w-80 mobile:-translate-x-11'>
-                <ProjectLink/>
+                 <div className=' mobile:hidden mobile:-translate-11 mobile:w-80 mobile:-translate-x-11'>
+                <ProjectLink siteLink="https://expense-tracker-doughnut-chart.netlify.app/" github="https://github.com/SurendharGN/Expense-Tracker"/>
             </div>
             </div>
            
@@ -132,7 +132,7 @@ const Projects = () => {
             <img src={expenseTracker} alt='expense tracker' className='w-[17rem] '></img>
 
             <div className=' md:hidden mobile:-translate-11 mobile:w-80 mobile:-translate-x-11'>
-                <ProjectLink/>
+                <ProjectLink siteLink="https://expense-tracker-doughnut-chart.netlify.app/" github="https://github.com/SurendharGN/Expense-Tracker"/>
             </div>
             
             
@@ -148,7 +148,7 @@ const Projects = () => {
         
 
         
-        <img src={countryroad} alt='sea' className='absolute lg:-top-20 lg:right-0 -z-10  w-screen mobile:h-[88rem] lg:object-cover lg:h-screen
+        <img src={countryroad} alt='sea' className='absolute lg:-top-20 lg:right-0 -z-10  w-screen mobile:h-[96rem] lg:object-cover lg:h-screen
         mobile:object-cover md:h-[72rem] mobile:-top-20 sm:right-0  opacity-50'></img>
     </div>
 
