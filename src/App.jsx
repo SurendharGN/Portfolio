@@ -8,7 +8,18 @@ function App() {
   return (
     <>
         <div>
-            <h1>Working on it.</h1>
+            <header id="header">
+                <h1 id="desc">Surendhar GN <br></br>Web Enthusiast based in India.</h1>
+            </header>
+            <main id="main">
+                <p id="about">Sophomore majoring in Artificial Intelligence & Machine Learning.
+Passionate in creating digital products ranging from design to development.
+Open-source contributions for the win. 
+
+</p>
+            </main>
+            <footer id="footer"></footer>
+            
         </div>
     </>
   )
