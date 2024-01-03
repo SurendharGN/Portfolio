@@ -1,5 +1,5 @@
 :root {
-  font-family: poppins;
+  font-family: inter;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -22,10 +22,9 @@ a:hover {
 }
 
 p{
-  color:black;
-  font-weight: lighter;
-  font-family:poppins;
-  font-size:1.5em
+  color:rgb(28, 28, 28);
+  font-family:inter;
+  font-size:1.5em;
 }
 
 h1 {
@@ -54,8 +53,8 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #1d1d1d;
+    background-color: #eaeaea;
   }
   a:hover {
     color: #747bff;

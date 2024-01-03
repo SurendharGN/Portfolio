@@ -9,13 +9,13 @@ function App() {
     <>
         <div>
             <header id="header">
-                <h1 id="desc">Surendhar GN <br></br>Web Enthusiast based in India.</h1>
+                {/* <h1 id="desc">Surendhar GN <br></br>Web Enthusiast based in India.</h1> */}
                 <img id='pfp' src=''></img>
             </header>
             <main id="main">
-                <p id="about">Sophomore majoring in Artificial Intelligence & Machine Learning.
-Passionate in creating digital products ranging from design to development.
-Open-source contributions for the win. 
+                <p id="about">
+
+The portfolio is a work in progress and requires a month to be published.
 
 </p>
             </main>
