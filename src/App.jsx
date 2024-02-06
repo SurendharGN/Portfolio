@@ -34,7 +34,7 @@ function App() {
       
 
       <div id='right'>
-        <img id='hero-image' src='../src/assets/homepage.png'></img>
+        <img id='hero-image' src='../public/homepage.png'></img>
         <header>
           <nav id='navbar'>
             <div >
