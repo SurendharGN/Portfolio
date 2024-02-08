@@ -1,11 +1,16 @@
 @font-face {
-  font-family:'bemirs';
-  src:local('bemirs'),
-  url('../fonts/bemirs.otf')
+  font-family: 'bemirs';
+  src: local('bemirs'),
+    url('../fonts/bemirs.otf')
+}
+@font-face {
+  font-family: 'Sans';
+  src: local('Sans'),
+    url('../fonts/SFProDisplay-Medium.ttf')
 }
 
 *{
-  font-family: 'General Sans';
+  font-family: 'Sans';
 }
 
 #main{
